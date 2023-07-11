@@ -1,0 +1,25 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in, bottom=1.5in]{geometry} 
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepgfplotslibrary{statistics}
+\usetikzlibrary{arrows,backgrounds,snakes}
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{accents}
+\usepackage{enumitem}
+\pagestyle{fancy}
+\setlength{\headheight}{40pt}
+
+
+\newenvironment{solution}
+  {\renewcommand\qedsymbol{$\blacksquare$}
+  \begin{proof}[Solution]}
+  {\end{proof}}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\newcommand{\ubar}[1]{\underaccent{\bar}{#1}}
+\newcommand{\sbsigma}{5.67\times10^{-5}\;\text{erg}\cdot\text{cm}^{-2}\text{s}^{-1}}
